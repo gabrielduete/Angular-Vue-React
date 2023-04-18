@@ -16,12 +16,12 @@
 
 | Benefits                                 | Drawbacks                                                                              |
 | ---------------------------------------- | -------------------------------------------------------------------------------------- |
-| simple learning                          | Quite new so the community is not that extensive                                       |
-| lightweight bundle                       | People with experience in other frameworks may have a little more difficulty learning. |
-| simple codes and tools                   | Very flexible, it can bring problems such as code standardization.                     |
-| encourages a clean code                  |                                                                                        |
-| works well for developing small projects |                                                                                        |
-| helps with prioritization                |                                                                                        |
+| Simple learning                          | Quite new so the community is not that extensive                                       |
+| Lightweight bundle                       | People with experience in other frameworks may have a little more difficulty learning. |
+| Simple codes and tools                   | Very flexible, it can bring problems such as code standardization.                     |
+| Encourages a clean code                  |                                                                                        |
+| Works well for developing small projects |                                                                                        |
+| Helps with prioritization                |                                                                                        |
 
 ### Suggestions when to use:
 
@@ -35,14 +35,14 @@
 
 | Benefits                                                                          | Drawbacks                                                                         |
 | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| huge community, most used globally                                                | as it gets longer, it becomes more complex to understand.                         |
-| lightweight bundle                                                                | aworks well with Reduce, but adds more complexity to your code.                   |
-| you can install just what you need                                                | Because it is a lib, it ends up depending on other frameworks and design patterns |
-| works well with Redux                                                             |                                                                                   |
-| complex codes, requires more of the programmer to create and maintain the project |                                                                                   |
-| lightweight bundle                                                                |                                                                                   |
-| maintained by facebook                                                            |                                                                                   |
-| works well cross-platform app, SPA or mobile apps.                                |                                                                                   |
+| Huge community, most used globally                                                | As it gets longer, it becomes more complex to understand.                         |
+| Lightweight bundle                                                                | Aworks well with Reduce, but adds more complexity to your code.                   |
+| You can install just what you need                                                | Because it is a lib, it ends up depending on other frameworks and design patterns |
+| Works well with Redux                                                             |                                                                                   |
+| Complex codes, requires more of the programmer to create and maintain the project |                                                                                   |
+| Lightweight bundle                                                                |                                                                                   |
+| Maintained by facebook                                                            |                                                                                   |
+| Works well cross-platform app, SPA or mobile apps.                                |                                                                                   |
 
 ### Suggestions when to use:
 
@@ -58,23 +58,23 @@ First front end framework - aiming to bring a robust experience, using js to man
 
 ## Angular 1
 
-| Benefits                                          | Drawbacks                               |
-| ------------------------------------------------- | --------------------------------------- |
-| maintained by google                              | Very heavy, the structure it is complex |
-| Brought the idea of Two-Way Data Binding          |                                         |
-| relates well to fullstack projects (monorepo too) |                                         |
+| Benefits                                          | Drawbacks                                                      |
+| ------------------------------------------------- | -------------------------------------------------------------- |
+| Maintained by google                              | Very heavy, the structure it is complex                        |
+| Brought the idea of Two-Way Data Binding          | Requires a lot of knowledge in class components and typescript |
+| Relates well to fullstack projects (monorepo too) |                                                                |
 
 ### Angular 2+
 
 It was rewritten from 0.
 
-| Benefits                                                                            | Drawbacks                               |
-| ----------------------------------------------------------------------------------- | --------------------------------------- |
-| Suitable for typescript usage                                                       | Very heavy, the structure it is complex |
-| Much more performant than the 1 version                                             | Quite bureaucratic to create solutions  |
-| Plenty of content in the community                                                  |                                         |
-| Cosntant evolution                                                                  |                                         |
-| ensures that the project follows an architecture very similar to the other projects |                                         |
+| Benefits                                                                            | Drawbacks                                       |
+| ----------------------------------------------------------------------------------- | ----------------------------------------------- |
+| Suitable for typescript usage                                                       | Very heavy, the structure it is complex         |
+| Much more performant than the 1 version                                             | Quite bureaucratic to create solutions          |
+| Plenty of content in the community                                                  | Migration issues between Angular 1 to Angular 2 |
+| Cosntant evolution                                                                  |                                                 |
+| Ensures that the project follows an architecture very similar to the other projects |                                                 |
 
 ### Suggestions when to use:
 
