@@ -4,8 +4,8 @@
 
 ## This repository destinty to comparate Angular, Vue and React.
 
-- In the files i did a basic comparation to show an input to control a state that changes the text according to change the input. Also a simple creation of a component to work as props.
-- [In the README is where the comparison between Angular, React and Vue](#basic-comparison-between-angular-react-and-vue)
+- [In the files i did a basic comparation to show an input to control a state that changes the text according to change the input. Also a simple creation of a component to work as props.](#code-preview-new-project-in-progress) [New project in progress]
+- [In the README is where the comparison between Angular, React and Vue.](#basic-comparison-between-angular-vue-and-react)
 
 # Basic comparison between Angular, Vue and React.
 
@@ -102,7 +102,7 @@ It was rewritten from 0.
 - [Vue vs React: What to choose in 2023?](https://digitalya.co/blog/vue-vs-react/)
 - [Front-end development: What should I learn? React, Vue, Angular or Svelte?](https://www.linkedin.com/pulse/front-end-development-what-should-i-learn-react-vue-angular-slomska/)
 
-# Code
+# Code Preview [New project in progress]
 
 ## Angular
 
