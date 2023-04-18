@@ -8,8 +8,6 @@
 
 #### The repository was written based on the studies that were referenced at the end and my experience as a front react developer for 1 year.
 
-<br>
-
 # <img src='https://br.vuejs.org/images/logo.png' style='width: 20px'>ue
 
 <img src='https://res.cloudinary.com/practicaldev/image/fetch/s--L71__yWO--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/z74oqos1984w5g5ah0i9.jpeg' style='width: 100%;'>
