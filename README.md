@@ -2,7 +2,12 @@
 
 <img src='https://assets.mkdev.me/posts/covers/000/000/179/original/javascript-framework-comparison-vue-react-and-angular.png?1551942837'>
 
-## Basic comparison between Angular, React and Vue.
+## This repository destinty to comparate Angular, React and Vue.
+
+- In the files i did a basic comparation to show an input to control a state that changes the text according to change the input. Also a simple creation of a component to work as props.
+- [In the README is where the comparison between Angular, React and Vue](#basic-comparison-between-angular-react-and-vue)
+
+# Basic comparison between Angular, React and Vue.
 
 #### Comparisons were made on qualities and defects of each tool. Also some suggestions for when to use each one.
 
