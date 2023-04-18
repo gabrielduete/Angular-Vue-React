@@ -1,12 +1,49 @@
-# Angular - React - Vue
+# Angular - Vue - React
 
 <img src='https://assets.mkdev.me/posts/covers/000/000/179/original/javascript-framework-comparison-vue-react-and-angular.png?1551942837'>
 
-## Basic comparison between Angular, React and Vue.
+## This repository destinty to comparate Angular, Vue and React.
+
+- In the files i did a basic comparation to show an input to control a state that changes the text according to change the input. Also a simple creation of a component to work as props.
+- [In the README is where the comparison between Angular, React and Vue](#basic-comparison-between-angular-react-and-vue)
+
+# Basic comparison between Angular, Vue and React.
 
 #### Comparisons were made on qualities and defects of each tool. Also some suggestions for when to use each one.
 
 #### The repository was written based on the studies that were referenced at the end and my experience as a front react developer for 1 year.
+
+# <img src ='https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg' style='width: 20px;'>ngular
+
+<img src='https://dkrn4sk0rn31v.cloudfront.net/uploads/2020/06/ANGULAR.png' style='width: 100%;'>
+
+First front end framework - aiming to bring a robust experience, using js to manipulate the DOM
+
+## Angular 1
+
+| Benefits                                          | Drawbacks                                                      |
+| ------------------------------------------------- | -------------------------------------------------------------- |
+| Maintained by google                              | Very heavy, the structure it is complex                        |
+| Brought the idea of Two-Way Data Binding          | Requires a lot of knowledge in class components and typescript |
+| Relates well to fullstack projects (monorepo too) |                                                                |
+
+### Angular 2+
+
+It was rewritten from 0.
+
+| Benefits                                                                            | Drawbacks                                       |
+| ----------------------------------------------------------------------------------- | ----------------------------------------------- |
+| Suitable for typescript usage                                                       | Very heavy, the structure it is complex         |
+| Much more performant than the 1 version                                             | Quite bureaucratic to create solutions          |
+| Plenty of content in the community                                                  | Migration issues between Angular 1 to Angular 2 |
+| Cosntant evolution                                                                  |                                                 |
+| Ensures that the project follows an architecture very similar to the other projects |                                                 |
+
+### Suggestions when to use:
+
+- Team fullstack
+- Project complex and scalable
+- Team with typescript experience
 
 # <img src='https://br.vuejs.org/images/logo.png' style='width: 20px'>ue
 
@@ -48,38 +85,6 @@
 - Want to scale the project easily
 - Must build a short or long project
 
-# <img src ='https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg' style='width: 20px;'>ngular
-
-<img src='https://dkrn4sk0rn31v.cloudfront.net/uploads/2020/06/ANGULAR.png' style='width: 100%;'>
-
-First front end framework - aiming to bring a robust experience, using js to manipulate the DOM
-
-## Angular 1
-
-| Benefits                                          | Drawbacks                                                      |
-| ------------------------------------------------- | -------------------------------------------------------------- |
-| Maintained by google                              | Very heavy, the structure it is complex                        |
-| Brought the idea of Two-Way Data Binding          | Requires a lot of knowledge in class components and typescript |
-| Relates well to fullstack projects (monorepo too) |                                                                |
-
-### Angular 2+
-
-It was rewritten from 0.
-
-| Benefits                                                                            | Drawbacks                                       |
-| ----------------------------------------------------------------------------------- | ----------------------------------------------- |
-| Suitable for typescript usage                                                       | Very heavy, the structure it is complex         |
-| Much more performant than the 1 version                                             | Quite bureaucratic to create solutions          |
-| Plenty of content in the community                                                  | Migration issues between Angular 1 to Angular 2 |
-| Cosntant evolution                                                                  |                                                 |
-| Ensures that the project follows an architecture very similar to the other projects |                                                 |
-
-### Suggestions when to use:
-
-- Team fullstack
-- Project complex and scalable
-- Team with typescript experience
-
 # References:
 
 #### PT-BR
@@ -96,3 +101,17 @@ It was rewritten from 0.
 - [React vs Angular vs Vue.js — What Is the Best Choice in 2023?](https://www.techmagic.co/blog/reactjs-vs-angular-vs-vuejs/)
 - [Vue vs React: What to choose in 2023?](https://digitalya.co/blog/vue-vs-react/)
 - [Front-end development: What should I learn? React, Vue, Angular or Svelte?](https://www.linkedin.com/pulse/front-end-development-what-should-i-learn-react-vue-angular-slomska/)
+
+# Code
+
+## Angular
+
+<img src='https://media.discordapp.net/attachments/985001266226790410/1097702698725425182/image.png'>
+
+## Vue
+
+<img src='https://media.discordapp.net/attachments/985001266226790410/1097702841029771304/image.png'>
+
+## React
+
+<img src='https://media.discordapp.net/attachments/985001266226790410/1097703427628343306/image.png'>
