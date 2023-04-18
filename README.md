@@ -2,83 +2,99 @@
 
 <img src='https://assets.mkdev.me/posts/covers/000/000/179/original/javascript-framework-comparison-vue-react-and-angular.png?1551942837'>
 
-### Basic comparison between Angular, React and Vue. </>
+## Basic comparison between Angular, React and Vue.
 
-#### Based on the studies:
+#### Comparisons were made on qualities and defects of each tool. Also some suggestions for when to use each one.
 
-- [Angular vs React vs Vue - A Batalha dos Frameworks!!!](https://youtu.be/VmmA5SFN2WM)
-- [Angular vs React vs Vue - Qual deles é o melhor? | Aquino Explica](https://youtu.be/8-3ZOdp_ZDo)
--
+#### The repository was written based on the studies that were referenced at the end and my experience as a front react developer for 1 year.
 
-# Comparation
+<br>
 
-## <img src='https://br.vuejs.org/images/logo.png' style='width: 20px'>ue
+# <img src='https://br.vuejs.org/images/logo.png' style='width: 20px'>ue
 
 <img src='https://res.cloudinary.com/practicaldev/image/fetch/s--L71__yWO--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/z74oqos1984w5g5ah0i9.jpeg' style='width: 100%;'>
 
-| Benefits | Drawbacks |
-| -------- | --------- |
-| a        | a         |
-| a        | a         |
+| Benefits                                 | Drawbacks                                                                              |
+| ---------------------------------------- | -------------------------------------------------------------------------------------- |
+| simple learning                          | Quite new so the community is not that extensive                                       |
+| lightweight bundle                       | People with experience in other frameworks may have a little more difficulty learning. |
+| simple codes and tools                   | Very flexible, it can bring problems such as code standardization.                     |
+| encourages a clean code                  |                                                                                        |
+| works well for developing small projects |                                                                                        |
+| helps with prioritization                |                                                                                        |
 
-Bão:
+### Suggestions when to use:
 
-- Muito simples para entende-lo, além de ser muito leve pro seu bandle do front
-- Códigos e ferramentas simples
+- Simple application with a short lead time
+- Team with more juniors
+- Want to structure a clean code pattern in the project with ease
 
-Paia:
-
-- É bastante novo, então está muito avançado, e uma comunidade pequena
-- Pessoas com experiência em outros frameworks, podem ter um pouco de dificuldade a mais para aprender, já que o código do Vue se diferencia bastante dos outros frameworks.
-
-## React
+# ⚛️ React
 
 <img src = 'https://sujeitoprogramador.com/wp-content/uploads/2019/04/react.png' style='width: 100%;'>
 
-Não é um framework, então é necessário outras bibliotecas ou frameworks para se trabalhar bem com o React.
+| Benefits                                                                          | Drawbacks                                                                         |
+| --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| huge community, most used globally                                                | as it gets longer, it becomes more complex to understand.                         |
+| lightweight bundle                                                                | aworks well with Reduce, but adds more complexity to your code.                   |
+| you can install just what you need                                                | Because it is a lib, it ends up depending on other frameworks and design patterns |
+| works well with Redux                                                             |                                                                                   |
+| complex codes, requires more of the programmer to create and maintain the project |                                                                                   |
+| lightweight bundle                                                                |                                                                                   |
+| maintained by facebook                                                            |                                                                                   |
+| works well cross-platform app, SPA or mobile apps.                                |                                                                                   |
 
-Bão:
+### Suggestions when to use:
 
-- Comunidade enorme, mais utilizado globalmente
-- Extremamente leve, ocupa pouco espaço no bandle do front.
-- Você pode instalar apenas o que precisa
-- Funciona bem com Reduce
-- Códigos mais complexos, exige mais do programador para criar e manter o projeto
-
-Paia:
-
-- Conforme fica muito extenso, acaba ficando mais complexo de entender.
-- Funciona bem com Reduce, mas traz mais complexidade pro seu código.
+- Want to work with compotenization
+- Want to scale the project easily
+- Must build a short or long project
 
 # <img src ='https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg' style='width: 20px;'>ngular
 
-<img src='https://dkrn4sk0rn31v.cloudfront.net/uploads/2020/06/ANGULAR.png' style='width: 100%;'
+<img src='https://dkrn4sk0rn31v.cloudfront.net/uploads/2020/06/ANGULAR.png' style='width: 100%;'>
+
+First front end framework - aiming to bring a robust experience, using js to manipulate the DOM
 
 ## Angular 1
 
-Bão:
-
-- Primeiro framework frontend - com o objetivo de trazer uma experiência robusta, usando o js pra manipular o DOM
-- Mantido pelo google
-- Trouxe a ideia do Two-Way Data Binding, onde a view e a model estão conectados
-
-Paia:
-
-- Muito pesado, a estrutura por trás é complexa
-- Por ser mantido pelo google, alguns devs ficam com um pé atrás 👀
+| Benefits                                          | Drawbacks                               |
+| ------------------------------------------------- | --------------------------------------- |
+| maintained by google                              | Very heavy, the structure it is complex |
+| Brought the idea of Two-Way Data Binding          |                                         |
+| relates well to fullstack projects (monorepo too) |                                         |
 
 ### Angular 2+
 
-Foi reescrito do 0.
+It was rewritten from 0.
 
-Bão:
+| Benefits                                                                            | Drawbacks                               |
+| ----------------------------------------------------------------------------------- | --------------------------------------- |
+| Suitable for typescript usage                                                       | Very heavy, the structure it is complex |
+| Much more performant than the 1 version                                             | Quite bureaucratic to create solutions  |
+| Plenty of content in the community                                                  |                                         |
+| Cosntant evolution                                                                  |                                         |
+| ensures that the project follows an architecture very similar to the other projects |                                         |
 
-- Apropriado para o uso de typescript
-- Bem mais performático que o 1
-- Bastante suporte na comunidade
-- Constante evolução
+### Suggestions when to use:
 
-Paia:
+- Team fullstack
+- Project complex and scalable
+- Team with typescript experience
 
-- Apesar de mais leve que a primeira versão, continua pesado
-- Bastante burocrático para criar soluções
+# References:
+
+#### PT-BR
+
+- [REACT, VUE ou ANGULAR - Qual framework JavaScript escolheria hoje](https://youtu.be/L78ENSEHXLE)
+- [Angular vs React vs Vue - A Batalha dos Frameworks!!!](https://youtu.be/VmmA5SFN2WM)
+- [Angular vs React vs Vue - Qual deles é o melhor? | Aquino Explica](https://youtu.be/8-3ZOdp_ZDo)
+- [React vs Angular vs Vue: Qual Framework Aprender em 2023](https://youtu.be/gTKHpxq8ISY)
+- [Não tente aprender um framework antes de ver este vídeo. Angular, React, Vue, Laravel](https://youtu.be/VMwWUUYmyow)
+- [O que é o Vue.js?](https://www.treinaweb.com.br/blog/o-que-e-o-vue-js)
+
+#### EN
+
+- [React vs Angular vs Vue.js — What Is the Best Choice in 2023?](https://www.techmagic.co/blog/reactjs-vs-angular-vs-vuejs/)
+- [Vue vs React: What to choose in 2023?](https://digitalya.co/blog/vue-vs-react/)
+- [Front-end development: What should I learn? React, Vue, Angular or Svelte?](https://www.linkedin.com/pulse/front-end-development-what-should-i-learn-react-vue-angular-slomska/)
