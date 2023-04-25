@@ -1,11 +1,12 @@
 import React from 'react'
-import Card from '../Components/Form'
+import Form from '../Components/Form'
+import './styles.css'
 
 const DefaultPage = () => {
   return (
-    <>
-      <Card />
-    </>
+    <section className="container">
+      <Form />
+    </section>
   )
 }
 

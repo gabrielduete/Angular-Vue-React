@@ -1,2 +1,16 @@
-.wrapper-card {
+.wrapper-form {
+  background-color: #00d9ff;
+  border-radius: 3px;
+  color: #433a3a;
+  width: 270px;
+  height: 390px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.wrapper-form div label:not(:first-child) {
+  margin-top: 18px;
+  display: inline-block;
 }

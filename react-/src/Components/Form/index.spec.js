@@ -3,10 +3,10 @@ import React from 'react'
 import { render, screen } from '@testing-library/react'
 import '@testing-library/jest-dom'
 
-import Card from '.'
+import Form from '.'
 
-describe('<Card />', () => {
-  const setup = () => render(<Card />)
+describe('<Form />', () => {
+  const setup = () => render(<Form />)
 
   it('should render title correctly', () => {
     setup()

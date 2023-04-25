@@ -1,7 +1,8 @@
-import "./App.css"
+import './App.css'
+import DefaultPage from './pages/index.page'
 
 function App() {
-  return <main></main>
+  return <DefaultPage />
 }
 
 export default App
