@@ -1,4 +1,3 @@
-import React from 'react'
 import './styles.css'
 import PropTypes from 'prop-types'
 
@@ -19,8 +18,8 @@ const InputsField = ({ label, type }) => {
 }
 
 InputsField.propTypes = {
-  label: PropTypes.string,
-  type: PropTypes.string,
+  label: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
 }
 
 export default InputsField

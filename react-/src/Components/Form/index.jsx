@@ -14,7 +14,6 @@ const Form = () => {
           return <InputsField label={label} type={type} />
         })}
       </div>
-      <button>TESTE</button>
     </form>
   )
 }
