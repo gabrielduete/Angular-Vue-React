@@ -3,10 +3,17 @@ import './styles.css'
 import PropTypes from 'prop-types'
 
 const InputsField = ({ label, type }) => {
+  const isDescription = label.toLowerCase() === 'description'
+
   return (
     <>
       <label className="inputField-label">{label}</label>
-      <input className="inputField-input" type={type} />
+
+      {isDescription ? (
+        <textarea className="inputField-input inputField-textarea" />
+      ) : (
+        <input className="inputField-input" type={type} />
+      )}
     </>
   )
 }
