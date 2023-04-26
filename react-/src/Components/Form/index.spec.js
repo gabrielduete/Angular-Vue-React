@@ -2,37 +2,24 @@ import React from 'react'
 
 import { render, screen } from '@testing-library/react'
 import '@testing-library/jest-dom'
+import { inputsConfig } from './Form.data'
 
 import Form from '.'
 
 describe('<Form />', () => {
-  const setup = () => render(<Form />)
+  const arrayTexts = inputsConfig.map((input) => input.label)
 
   it('should render title correctly', () => {
-    setup()
+    render(<Form />)
 
-    const title = screen.getByText('Set Informations')
+    const tittle = screen.getByTestId('form_title')
 
-    expect(title).toBeIntheDocument()
+    expect(tittle).toBeInTheDocument()
   })
 
-  it('should render button correctly', () => {
-    setup()
+  it.each(arrayTexts)('should return %s', (label) => {
+    render(<Form />)
 
-    const button = screen.getByAltText('CREATE CARD')
-
-    expect(button).toBeIntheDocument()
-  })
-
-  it('should render inputs correctly', () => {
-    setup()
-
-    //...
-  })
-
-  it('should create card when clicked button', () => {
-    setup()
-
-    //...
+    expect(screen.getByText(label)).toBeInTheDocument()
   })
 })

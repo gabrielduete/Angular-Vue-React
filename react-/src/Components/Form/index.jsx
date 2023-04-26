@@ -6,7 +6,7 @@ import { inputsConfig } from './Form.data'
 const Form = () => {
   return (
     <form className="wrapper-form">
-      <h1>
+      <h1 data-testid="form_title">
         Set <span>Informations</span>
       </h1>
       <div>
