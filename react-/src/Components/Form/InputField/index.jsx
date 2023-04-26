@@ -9,9 +9,12 @@ const InputsField = ({ label, type }) => {
       <label className="inputField-label">{label}</label>
 
       {isDescription ? (
-        <textarea className="inputField-input inputField-textarea" />
+        <textarea
+          aria-label={label}
+          className="inputField-input inputField-textarea"
+        />
       ) : (
-        <input className="inputField-input" type={type} />
+        <input className="inputField-input" aria-label={label} type={type} />
       )}
     </>
   )
