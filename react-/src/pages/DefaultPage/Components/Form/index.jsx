@@ -12,16 +12,19 @@ const Form = () => {
   const inputsConfig = [
     {
       label: 'Name',
+      max: 8,
       type,
       setState: setName,
     },
     {
       label: 'Profission',
+      max: 18,
       type,
       setState: setProfission,
     },
     {
       label: 'Description',
+      max: 200,
       type,
       setState: setDescription,
     },
@@ -33,8 +36,15 @@ const Form = () => {
         Set <span>Informations</span>
       </h1>
       <div>
-        {inputsConfig.map(({ label, type, setState }) => {
-          return <InputsField label={label} type={type} setState={setState} />
+        {inputsConfig.map(({ label, type, max, setState }) => {
+          return (
+            <InputsField
+              label={label}
+              type={type}
+              max={max}
+              setState={setState}
+            />
+          )
         })}
       </div>
     </form>

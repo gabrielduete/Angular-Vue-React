@@ -13,9 +13,20 @@
 
 .section-card h1 {
   color: #433a3a;
-  font-size: 120px;
+  text-transform: uppercase;
   word-break: break-all;
-  width: 200px;
+}
+
+.minSize {
+  font-size: 120px;
+}
+
+.mediumSize {
+  font-size: 100px;
+}
+
+.maxSize {
+  font-size: 86px;
 }
 
 .section-card p {
@@ -23,6 +34,10 @@
   font-weight: 300;
   width: 340px;
   margin: 6px 0 0 8px;
+}
+
+.section-card p::first-letter {
+  text-transform: capitalize;
 }
 
 .section-card p:nth-child(1) {
