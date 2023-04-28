@@ -18,7 +18,7 @@ const Form = () => {
     },
     {
       label: 'Profission',
-      max: 18,
+      max: 22,
       type,
       setState: setProfission,
     },

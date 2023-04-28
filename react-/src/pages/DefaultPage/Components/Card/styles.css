@@ -7,13 +7,17 @@
   display: flex;
   gap: 12px;
   padding: 26px;
-  height: 350px;
+  min-height: 350px;
   width: 610px;
 }
+/* 
+.section-card p::first-letter {
+  text-transform: capitalize;
+} */
 
 .section-card h1 {
   color: #433a3a;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   word-break: break-all;
 }
 
@@ -34,10 +38,7 @@
   font-weight: 300;
   width: 340px;
   margin: 6px 0 0 8px;
-}
-
-.section-card p::first-letter {
-  text-transform: capitalize;
+  word-break: break-all;
 }
 
 .section-card p:nth-child(1) {
