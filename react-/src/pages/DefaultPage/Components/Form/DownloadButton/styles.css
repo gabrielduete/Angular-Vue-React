@@ -1,0 +1,19 @@
+.download-button {
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.404);
+  color: #433a3a;
+  cursor: pointer;
+  padding: 5px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: bold;
+  width: 100%;
+  outline: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.download-button:hover {
+  background-color: #433a3a;
+  color: #ffffff;
+}

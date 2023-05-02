@@ -1,0 +1,16 @@
+.wrapper-form {
+  background-color: #00d9ff;
+  border-radius: 3px;
+  color: #433a3a;
+  max-width: 270px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.404);
+}
+
+.wrapper-form div label:not(:first-child) {
+  margin-top: 18px;
+  display: inline-block;
+}

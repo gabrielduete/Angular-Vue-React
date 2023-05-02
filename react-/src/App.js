@@ -1,14 +1,8 @@
-import "./App.css"
-import Home from "./views/home/Home"
-import HomeClass from "./views/home/HomeClass"
+import './App.css'
+import DefaultPage from './pages/DefaultPage/index.page'
 
 function App() {
-  return (
-    <div className="App">
-      <Home msg="Oi sou o Componente Home #01" />
-      <HomeClass msg="Oi sou o Componente Home #02" />
-    </div>
-  )
+  return <DefaultPage />
 }
 
 export default App
