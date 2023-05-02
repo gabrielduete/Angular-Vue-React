@@ -2,6 +2,9 @@ import { useContext } from 'react'
 import './styles.css'
 import InputsField from './InputField'
 import { DefaultContextPage } from '../../context'
+import DownloadButton from './DownloadButton'
+import html2canvas from 'html2canvas'
+import downloadjs from 'downloadjs'
 
 const Form = () => {
   const { setName, setProfission, setDescription } =
@@ -30,8 +33,15 @@ const Form = () => {
     },
   ]
 
+  const downloadCard = async () => {
+    const element = document.querySelector('.section-card')
+    const canvas = await html2canvas(element, { scale: 2 })
+    const dataURL = canvas.toDataURL('image/jpg')
+    downloadjs(dataURL, 'card.jpg', 'image/jpg')
+  }
+
   return (
-    <form className="wrapper-form">
+    <form className="wrapper-form" onSubmit={(e) => e.preventDefault()}>
       <h1 data-testid="form_title">
         Set <span>Informations</span>
       </h1>
@@ -47,6 +57,7 @@ const Form = () => {
           )
         })}
       </div>
+      <DownloadButton onClick={downloadCard} />
     </form>
   )
 }
