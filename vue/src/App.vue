@@ -1,27 +1,16 @@
 <template>
-  <div id="app">
-    <HomeTest msg="Oi sou o Componente Home" />
-  </div>
+  <main id="app"><Form /></main>
 </template>
 
 <script>
-import HomeTest from "./views/home/HomeTest.vue"
+import Form from './components/FormInformations/FormInformations.vue'
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
-    HomeTest,
+    Form,
   },
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style lang="scss" src="./App.scss" />
